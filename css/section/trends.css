@@ -1,0 +1,38 @@
+.trends {
+    display: flex;
+    height: 600px;
+}
+
+.trends__cards__wrap {
+    display: flex;
+    align-items: center;
+    margin-right: 65px;
+}
+
+.trend__card_1,
+.trend__card_2,
+.trend__card_3 {
+    width: 250px;
+    height: 335px;
+    border-radius: 10px;
+}
+
+.trend__card_1 {
+    background-image: url(../../assets/img/trend1.jpg);
+}
+
+.trend__card_2 {
+    background-image: url(../../assets/img/trend2.jpg);
+    transform: scale(1.2);
+}
+
+.trend__card_3 {
+    background-image: url(../../assets/img/trend3.jpg);
+}
+
+.trends__text {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,59 @@
+.place {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+}
+
+.place__title {
+    max-width: 360px;
+}
+
+.text {
+    max-width: 440px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.place__slider {
+    display: flex;
+}
+
+.place__slider__item {
+    height: 340px;
+    width: 250px;
+    background-image: url("../../assets/img/bangalore.jpg");
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.place__slider__item:nth-child(2) {
+    background-image: url("../../assets/img/Coorg.jpg");
+}
+
+.place__slider__item:nth-child(3) {
+    background-image: url("../../assets/img/Island.jpg");
+}
+
+.place__slider__item:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F29C72 100%);
+    opacity: 0.4;
+}
+
+.place__slider__item h6 {
+    margin-bottom: 50px;
+    margin-left: 20px;
+    z-index: 1;
+}

@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.footer h4 {
+    margin-bottom: 1em;
+}
+
+.footer li a {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1D1B19;
+    opacity: 0.6;
+}
+
+.footer li a:hover {
+    opacity: 1;
+}

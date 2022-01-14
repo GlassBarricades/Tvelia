@@ -1,0 +1,32 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+}
+
+.about__item {
+    display: flex;
+}
+
+.about__item img {
+    margin-right: 1em;
+}
+
+.about__item span {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--color-mark);
+    display: inline-block;
+    margin-bottom: 0.3em;
+}
+
+.about__item p {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    color: #352F2B;
+}

@@ -1,0 +1,12 @@
+@import url("global.css");
+@import url("variable.css");
+@import url("section/header.css");
+@import url("section/hero.css");
+@import url("section/about.css");
+@import url("section/place.css");
+@import url("section/top.css");
+@import url("section/destination.css");
+@import url("section/best.css");
+@import url("section/trends.css");
+@import url("section/partners.css");
+@import url("section/footer.css");
