@@ -17,6 +17,7 @@
 .partners__item {
     display: flex;
     align-items: center;
+    margin-bottom: 2em;
 }
 
 .partners__item img {

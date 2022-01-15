@@ -1,9 +1,25 @@
 @media (max-width: 820px) {
     .container {
-        width: 100vw;
+        width: 100%;
     }
     .header__nav {
-        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 1em;
+    }
+    .header__nav__item a {
+        margin: 1em;
+    }
+    .burger {
+        display: block;
+    }
+    .about__item {
+        width: 50%;
+        margin-bottom: 2em;
     }
     .best {
         display: none;
@@ -28,5 +44,8 @@
     }
     .destination__item {
         width: 33.3%;
+    }
+    .partners__item {
+        width: 50%;
     }
 }

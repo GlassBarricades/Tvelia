@@ -5,8 +5,13 @@
     box-sizing: border-box;
 }
 
+.show {
+    display: block;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    padding: 1em;
 }
 
 .container {

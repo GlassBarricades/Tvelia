@@ -1,6 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
+    height: 10vh;
     align-items: center;
 }
 
@@ -33,4 +34,20 @@ header {
 .header__nav__item a:hover {
     border-bottom: 3px solid var(--color-mark);
     opacity: 1;
+}
+
+.burger {
+    background-color: #fff;
+    border: 2px solid var(--color-mark);
+    padding: 0.5em;
+    border-radius: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    display: none;
+}
+
+.show {
+    display: none;
 }
