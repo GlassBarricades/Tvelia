@@ -1,0 +1,32 @@
+@media (max-width: 820px) {
+    .container {
+        width: 100vw;
+    }
+    .header__nav {
+        display: none;
+    }
+    .best {
+        display: none;
+    }
+    .place {
+        flex-direction: column;
+        text-align: center;
+    }
+    .place__slider__item:nth-child(3) {
+        display: none;
+    }
+    .place__title {
+        max-width: 100%;
+    }
+    .trends__cards__wrap {
+        display: none;
+    }
+    .trends__text {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .destination__item {
+        width: 33.3%;
+    }
+}

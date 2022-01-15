@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    margin: 5em auto;
 }
 
 .destination__wrap {
@@ -15,8 +15,9 @@
 .destination__item {
     display: flex;
     width: 235px;
-    margin: 50px 50px;
     align-items: center;
+    margin-bottom: 2em;
+    width: 25%;
 }
 
 .destination__item img {
